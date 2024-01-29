@@ -1,13 +1,7 @@
-i=1
-while (i <= 26){
-	if (i%2 == 0){
-	document.write(i+'<br>')
+num=Number(prompt("Enter Any Number"))
+for(i=1;i<=num;i++){
+	for(j=1;j<=i;j++){
+	document.write('*')
 }
-	i+=1
-}
-for(i=0; i<=10; i++)
-{
-	if (i%2 != 0){
-	console.log(i)
-}
+document.write('<br>')
 }
