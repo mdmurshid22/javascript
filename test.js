@@ -8,12 +8,13 @@ document.write('<br>')
 document.write(typeof(num))*/
 num1=Number(prompt("Enter Any Number"))
 var i=1
-let j=1
+var j=1
 while (i<=num1){
-	while (j<=num1){
-	document.write("$")
+	while (j<=i){
+	document.write('*'+" ")
 	j++
 }
-i++
 document.write('<br>')
+i++
+j=1
 }
