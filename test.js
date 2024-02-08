@@ -5,7 +5,7 @@ for(i=1;i<=num;i++){
 }
 document.write('<br>')
 }
-document.write(typeof(num))*/
+document.write(typeof(num))
 num=Number(prompt("Enter Any Number"))
 i=1
 j=1
@@ -27,4 +27,4 @@ while (i <= num-1){
 document.write('<br>')
 i++
 j=1
-}
+}*/
