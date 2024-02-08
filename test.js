@@ -28,3 +28,16 @@ document.write('<br>')
 i++
 j=1
 }*/
+num=Number(prompt("Enter Any Number:"))
+for(i=1;i<=num;i++){
+	for(j=1;j<=i;j++){
+	document.write(j+' ')
+}
+document.write('<br>')
+}
+for(i=1;i<=num;i++){
+	for(j=1;j<=num-i;j++){
+	document.write(j+' ')
+}
+document.write('<br>')
+}
