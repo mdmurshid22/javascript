@@ -1,1 +1,1 @@
-alert('kuttyma')
+document.write('idiot' + " idiot")
