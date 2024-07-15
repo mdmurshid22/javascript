@@ -1,4 +1,4 @@
-mark = 98
+/*mark = 98
 if (mark < 35)
 {
 	console.log('Fail mark:', mark)
@@ -14,4 +14,4 @@ else if((mark >= 60) && (mark < 90))
 else
 {
 	console.log('Good mark:', mark)
-}
+}*/
