@@ -15,5 +15,20 @@ if(prime == true){
 	console.log(num,'prime number.')
 } */
 
+// for loop.
+
+num = 17
+prime = true
+for(i=2;i<num;i++){
+	if(num%i == 0){
+		console.log(num, 'not prime.')
+		prime = false
+		break
+	}
+}
+if(prime == true){
+	console.log(num, 'prime.')
+}
+
 // 2)Write a javascript program to prime the number of prime number is?
 
