@@ -1,6 +1,6 @@
 //1) Write a javascript program to given number is prime or not?
 
-num = 9
+/* num = 9
 i = 2
 prime = true
 while(i<num){
@@ -13,4 +13,6 @@ while(i<num){
 }
 if(prime == true){
 	console.log(num,'prime number.')
-}
+} */
+
+// 2)Write a javascript program to prime the number of prime number is?
