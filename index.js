@@ -25,7 +25,7 @@ count = 1
 prime = true
 while(count<numb){
 	while(i<no){
-		if(i%no == 0){
+		if(no%i == 0){
 			prime = false
 			break
 		}
@@ -33,7 +33,7 @@ while(count<numb){
 	}
 	if(prime == true){
 		console.log(no)
-		no+=3
+		no+=2
 	}
 	count+=1
 }
