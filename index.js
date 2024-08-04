@@ -13,7 +13,7 @@ while(i<num){
 }
 if(prime == true){
 	console.log(num,'prime number.')
-} */
+} 
 
 // for loop.
 
@@ -28,7 +28,7 @@ for(i=2;i<num;i++){
 }
 if(prime == true){
 	console.log(num, 'prime.')
-}
+} */
 
 // 2)Write a javascript program to prime the number of prime number is?
 
