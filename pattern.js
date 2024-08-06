@@ -1,5 +1,5 @@
 //1)Square star pattern in javascript.
-
+//Eg ->1. by using repeat() method.
 let num = 5
 let star = '* '
 for(i=1;i<=num;i+=1){
