@@ -11,7 +11,7 @@ for(i=1;i<=num;i+=1){
 
 //Eg ->2. by using for loop.
 
-let num = 5
+/*let num = 5
 let result = ''
 for(i=1;i<=num;i++){
 	for(j=1;j<=num;j++){
@@ -19,7 +19,82 @@ for(i=1;i<=num;i++){
 	}
 	result = result + '\n'
 }
-console.log(result)
+console.log(result)*/
+//-------------------------------------------------------------------------------------------
+
+//Eg ->3. by using while loop.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
