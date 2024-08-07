@@ -24,6 +24,19 @@ console.log(result)*/
 
 //Eg ->3. by using while loop.
 
+num = 5
+i = 1
+j = 1
+result = ''
+while(i<=num){
+	while(j<=num){
+		result += '* '
+		j++
+	}
+console.log(result)
+i++
+} 
+
 
 
 
