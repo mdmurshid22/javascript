@@ -24,7 +24,7 @@ console.log(result)*/
 
 //Eg ->3. by using while loop.
 
-num = 5
+/*num = 5
 i = 1
 j = 1
 result = ''
@@ -35,14 +35,30 @@ while(i<=num){
 	}
 console.log(result)
 i++
-} 
+}*/
+//-------------------------------------------------------------------------------------------
 
+//2)Hollow square star pattern program in JavaScript.
 
-
-
-
-
-
+num = 10
+result = ''
+for(i=1;i<=num;i++){
+	for(j=1;j<=num;j++){
+		if((i == 1) || (i == num)){
+			result += '* '
+		}
+		else{
+			if((j == 1) || (j == num)){
+				result += '* '
+			}
+			else{
+				result += '  '
+			}
+		}
+		}
+	result += '\n'
+}
+console.log(result)
 
 
 
