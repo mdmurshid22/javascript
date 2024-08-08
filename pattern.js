@@ -199,7 +199,7 @@ console.log(result)*/
 
 //10)Reversed pyramid star pattern program in JavaScript.
 
-num = 8
+/*num = 8
 result = ''
 for(i=1;i<=num;i++){
 	for(j=1;j<=num;j++){
@@ -217,7 +217,162 @@ for(i=1;i<=num;i++){
 	}
 	result += '\n'
 }
+console.log(result)*/
+//----------------------------------------------------------------------------------------------
+
+//11)Diamond star pattern program in JavaScript.
+
+num = 9
+result = ''
+for(i=1;i<=num;i++){
+	for(j=1;j<=num;j++){
+		if(j <= (num-i)){
+			result += ' '
+		}
+		else{
+			result += '* '
+		}
+	}
+	result += '\n'
+}
+for(k=1;k<=num;k++){
+	for(q=1;q<=num;q++){
+		if(q<=k){
+			result += ' '
+		}
+		else{
+			result += '* '
+		}
+	}
+	result += '\n'
+}
 console.log(result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
