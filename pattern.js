@@ -117,7 +117,7 @@ console.log(result)*/
 
 //6)Downward Right triangle star pattern program in JavaScript.
 
-num = 5
+/*num = 5
 result = ''
 for(i=1;i<=num;i++){
 	for(j=1;j<=num;j++){
@@ -130,7 +130,21 @@ for(i=1;i<=num;i++){
 		}
 	result += '\n'
 }
+console.log(result)*/
+//---------------------------------------------------------------------------------------------
+
+//7)Hollow Left triangle star pattern program in JavaScript.
+
+num = 7
+result = ''
+for(i=1;i<=num;i++){
+	for(j=1;j<=num;j++){
+		
+	}
+	result += '\n'
+}
 console.log(result)
+
 
 
 
