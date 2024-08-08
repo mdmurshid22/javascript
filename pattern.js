@@ -81,7 +81,7 @@ console.log(result)*/
 
 //4)Left triangle star patter program in JavaScript.
 
-/*num = 7
+/*num = 10
 result = ''
 for(i=1;i<=num;i++){
 	for(j=1;j<=num;j++){
@@ -97,8 +97,22 @@ for(i=1;i<=num;i++){
 console.log(result)*/
 //-------------------------------------------------------------------------------------------
 
+//5)Downward Left triangle star pattern program in JavaScript.
 
-
+num = 5
+result = ''
+for(i=1;i<=num;i++){
+	for(j=1;j<=num;j++){
+		if(i<=(num+1-j)){
+			result += '* '
+		}
+		else{
+			result += ' '
+		}
+	}
+	result += '\n'
+}
+console.log(result)
 
 
 
