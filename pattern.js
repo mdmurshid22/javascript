@@ -158,7 +158,7 @@ console.log(result)*/
 
 //8)Hollow Right triangle star pattern program in JavaScript.
 
-num = 4
+/*num = 4
 result = ''
 for(i=1;i<=num;i++){
 	for(j=1;j<=num;j++){
@@ -176,7 +176,95 @@ for(i=1;i<=num;i++){
 	}
 	result += '\n'
 }
+console.log(result)*/
+//--------------------------------------------------------------------------------------------
+
+//9)Pyramid star pattern program in JavaScript.
+
+num = 7
+result = ''
+for(i=1;i<=num;i++){
+	for(j=1;j<=num;j++){
+		if(j<=num-i){
+			result += ' '
+		}
+		else{
+			result += '* '
+		}
+	}
+	result += '\n'
+}
 console.log(result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
