@@ -135,11 +135,21 @@ console.log(result)*/
 
 //7)Hollow Left triangle star pattern program in JavaScript.
 
-num = 7
+num = 9
 result = ''
 for(i=1;i<=num;i++){
 	for(j=1;j<=num;j++){
-		
+		if(i<num){
+			if((j == 1) || (j == i)){
+				result += '* '
+			}
+			else{
+				result += '  '
+			}
+		}
+		else{
+			result += '* '
+		}
 	}
 	result += '\n'
 }
