@@ -40,7 +40,7 @@ i++
 
 //2)Hollow square star pattern program in JavaScript.
 
-num = 10
+num = 7
 result = ''
 for(i=1;i<=num;i++){
 	for(j=1;j<=num;j++){
@@ -55,15 +55,10 @@ for(i=1;i<=num;i++){
 				result += '  '
 			}
 		}
-		}
+	}
 	result += '\n'
 }
 console.log(result)
-
-
-
-
-
 
 
 
