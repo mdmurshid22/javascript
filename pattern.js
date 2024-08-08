@@ -135,7 +135,7 @@ console.log(result)*/
 
 //7)Hollow Left triangle star pattern program in JavaScript.
 
-num = 9
+/*num = 9
 result = ''
 for(i=1;i<=num;i++){
 	for(j=1;j<=num;j++){
@@ -153,7 +153,45 @@ for(i=1;i<=num;i++){
 	}
 	result += '\n'
 }
+console.log(result)*/
+//--------------------------------------------------------------------------------------------
+
+//8)Hollow Right triangle star pattern program in JavaScript.
+
+num = 4
+result = ''
+for(i=1;i<=num;i++){
+	for(j=1;j<=num;j++){
+		if(i<num){
+			if((j == num) || (j == (num+1-i))){
+				result += '* '
+			}
+			else{
+				result += '  '
+			}
+		}
+		else{
+			result += '* '
+		}
+	}
+	result += '\n'
+}
 console.log(result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
