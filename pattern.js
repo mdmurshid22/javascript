@@ -40,7 +40,7 @@ i++
 
 //2)Hollow square star pattern program in JavaScript.
 
-num = 7
+/*num = 7
 result = ''
 for(i=1;i<=num;i++){
 	for(j=1;j<=num;j++){
@@ -58,7 +58,39 @@ for(i=1;i<=num;i++){
 	}
 	result += '\n'
 }
+console.log(result)*/
+//-------------------------------------------------------------------------------------------
+
+//3)Right triangle star pattern program in JavaScript.
+
+num = 9
+result = ''
+for(i=1;i<=num;i++){
+	for(j=1;j<=num;j++){
+		if(i<=(num-j)){
+			result += '  ';
+		}
+		else{
+			result += '* '
+		}
+	}
+result += '\n';
+}
 console.log(result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
