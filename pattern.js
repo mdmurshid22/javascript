@@ -81,7 +81,7 @@ console.log(result)*/
 
 //4)Left triangle star patter program in JavaScript.
 
-num = 7
+/*num = 7
 result = ''
 for(i=1;i<=num;i++){
 	for(j=1;j<=num;j++){
@@ -94,7 +94,8 @@ for(i=1;i<=num;i++){
 	}
 	result += '\n'
 }
-console.log(result)
+console.log(result)*/
+//-------------------------------------------------------------------------------------------
 
 
 
