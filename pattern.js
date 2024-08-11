@@ -289,7 +289,7 @@ console.log(result)*/
  
 //13)Hollow diamond star pattern program in JavaScript.
 
-num = 15
+/*num = 15
 result = ''
 for(i=1;i<=num;i++){
 	for(j=1;j<=num;j++){
@@ -329,10 +329,36 @@ for(a=2;a<=num;a++){
 	}
 	result += '\n'
 }
+console.log(result)*/
+//-----------------------------------------------------------------------------------------------
+
+//14)Hourglass star pattern program in JavaScript.
+
+num = 5
+result = ''
+for(i=1;i<=num;i++){
+	for(j=1;j<=num;j++){
+		if(j<=(i-1)){
+			result += ' '
+		}
+		else{
+			result += '* '
+		}
+	}
+	result += '\n'
+}
+for(k=2;k<=num;k++){
+	for(q=1;q<=num;q++){
+		if(q<=(num-k)){
+			result += ' '
+		}
+		else{
+			result += '* '
+		}
+	}
+	result += '\n'
+}
 console.log(result)
-
-
-
 
 
 
