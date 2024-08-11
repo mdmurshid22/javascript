@@ -251,7 +251,7 @@ console.log(result)*/
 
 //12)Hollow pyramid star pattern program in JavaScript.
 
-num = 5
+/*num = 5
 result = ''
 for(i=1;i<=num;i++){
 	for(j=1;j<=num;j++){
@@ -284,7 +284,9 @@ for(i=1;i<=num;i++){
 	}
 	result += '\n'
 }
-console.log(result)
+console.log(result)*/
+//-------------------------------------------------------------------------------------------------
+
 
 
 
