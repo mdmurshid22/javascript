@@ -286,8 +286,50 @@ for(i=1;i<=num;i++){
 }
 console.log(result)*/
 //-------------------------------------------------------------------------------------------------
+ 
+//13)Hollow diamond star pattern program in JavaScript.
 
-
+num = 15
+result = ''
+for(i=1;i<=num;i++){
+	for(j=1;j<=num;j++){
+		if(j==(num+1-i)){
+			result += '*'
+		}
+		else{
+			result += ' '
+		}
+	}
+	for(k=2;k<=num;k++){
+		if(k==i){
+			result += '* '
+		}
+		else{
+			result += ' '
+		}
+	}
+	result += '\n'
+}
+for(a=2;a<=num;a++){
+	for(b=1;b<=num;b++){
+		if(b==a){
+			result += '*'
+		}
+		else{
+			result += ' '
+		}
+	}
+	for(c=2;c<=num;c++){
+		if(c==(num+1-a)){
+			result += '* '
+		}
+		else{
+			result += ' '
+		}
+	}
+	result += '\n'
+}
+console.log(result)
 
 
 
