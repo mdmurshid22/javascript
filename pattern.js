@@ -363,7 +363,7 @@ console.log(result)*/
 
 //15)Right pascal star pattern program in JavaScript.
 
-num = 7
+/*num = 7
 result = ''
 for(i=1;i<=num;i++){
 	for(j=1;j<=num;j++){
@@ -387,9 +387,36 @@ for(k=2;k<=num;k++){
 	}
 	result += '\n'
 }
+console.log(result)*/
+//-------------------------------------------------------------------------------------------
+
+//16)Left pascal star pattern program in JavaScript.
+
+num = 8
+result = ''
+for(i=1;i<=num;i++){
+	for(j=1;j<=num;j++){
+		if(j<=num-i){
+			result += '  '
+		}
+		else{
+			result += '* '
+		}
+	}
+	result += '\n'
+}
+for(k=2;k<=num;k++){
+	for(q=1;q<=num;q++){
+		if(q<=k-1){
+			result += '  '
+		}
+		else{
+			result += '* '
+		}
+	}
+	result += '\n'
+}
 console.log(result)
-
-
 
 
 
