@@ -392,7 +392,7 @@ console.log(result)*/
 
 //16)Left pascal star pattern program in JavaScript.
 
-num = 8
+/*num = 8
 result = ''
 for(i=1;i<=num;i++){
 	for(j=1;j<=num;j++){
@@ -416,7 +416,51 @@ for(k=2;k<=num;k++){
 	}
 	result += '\n'
 }
+console.log(result)*/
+//----------------------------------------------------------------------------------------------------
+
+//17)Heart star pattern program in Javascript.
+
+num = 4
+result = ''
+for(i=num-2;i<=num;i++){
+	for(j=1;j<=num;j++){
+		if((i==(num-1)) || (i==(num-2))){
+			if(j<=(num-i)){
+				result += '  '
+			}
+			else{
+				result += '* '
+			}
+		}
+	}
+	for(m=1;m<num;m++){
+		if((i==(num-1)) || (i==(num-2))){
+			if(m<=(num-i-1)){
+				result += ' '
+			}
+			else{
+				result += '* '
+			}
+		}
+	}
+result += '\n'
+}
+/*for(k=num-2;k<=num;k++){
+	for(q=1;q<=num;q++){
+		if((k==(num-1)) || (k==(num+2))){
+			if(q<=(num-k)){
+				result += ' '
+			}
+			else{
+				result += '* '
+			}
+		}
+	}
+	result += '\n'
+}*/
 console.log(result)
+
 
 
 
