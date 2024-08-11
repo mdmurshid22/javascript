@@ -334,7 +334,7 @@ console.log(result)*/
 
 //14)Hourglass star pattern program in JavaScript.
 
-num = 5
+/*num = 5
 result = ''
 for(i=1;i<=num;i++){
 	for(j=1;j<=num;j++){
@@ -358,7 +358,10 @@ for(k=2;k<=num;k++){
 	}
 	result += '\n'
 }
-console.log(result)
+console.log(result)*/
+//------------------------------------------------------------------------------------------
+
+
 
 
 
