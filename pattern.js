@@ -361,11 +361,33 @@ for(k=2;k<=num;k++){
 console.log(result)*/
 //------------------------------------------------------------------------------------------
 
+//15)Right pascal star pattern program in JavaScript.
 
-
-
-
-
+num = 7
+result = ''
+for(i=1;i<=num;i++){
+	for(j=1;j<=num;j++){
+		if(j<=i){
+			result += '* '
+		}
+		else{
+			result += ' ' 
+		}
+	}
+	result += '\n'
+}
+for(k=2;k<=num;k++){
+	for(q=1;q<=num;q++){
+		if(q<=num+1-k){
+			result += '* '
+		}
+		else{
+			result += ' '
+		}
+	}
+	result += '\n'
+}
+console.log(result)
 
 
 
