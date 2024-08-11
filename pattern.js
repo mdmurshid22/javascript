@@ -222,7 +222,7 @@ console.log(result)*/
 
 //11)Diamond star pattern program in JavaScript.
 
-num = 9
+/*num = 9
 result = ''
 for(i=1;i<=num;i++){
 	for(j=1;j<=num;j++){
@@ -246,7 +246,333 @@ for(k=1;k<=num;k++){
 	}
 	result += '\n'
 }
+console.log(result)*/
+//--------------------------------------------------------------------------------------------------
+
+//12)Hollow pyramid star pattern program in JavaScript.
+
+num = 5
+result = ''
+for(i=1;i<=num;i++){
+	for(j=1;j<=num;j++){
+		if(i<num){
+			if(j==(num+1-i)){
+				result += '*'
+			}
+			else{
+				result += ' '
+			}
+		}
+		else if(i==num){
+			if(j<=num){
+				result += '* '
+			}
+			else{
+				result += ' '
+			}
+		}
+	}
+	for(k=2;k<num;k++){
+		if((i<=2) || (i<num)){
+			if(k==i){
+				result += '* '
+			}
+			else{
+				result += ' '
+			}
+		}
+	}
+	result += '\n'
+}
 console.log(result)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
