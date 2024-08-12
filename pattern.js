@@ -421,13 +421,13 @@ console.log(result)*/
 
 //17)Heart star pattern program in Javascript.
 
-num = 4
+num = 15
 result = ''
-for(i=num-2;i<=num;i++){
+for(i=num-2;i<=num-1;i++){
 	for(j=1;j<=num;j++){
 		if((i==(num-1)) || (i==(num-2))){
 			if(j<=(num-i)){
-				result += '  '
+				result += ' '
 			}
 			else{
 				result += '* '
@@ -444,21 +444,27 @@ for(i=num-2;i<=num;i++){
 			}
 		}
 	}
-result += '\n'
+		result += '\n'
 }
-/*for(k=num-2;k<=num;k++){
+for(k=1;k<=num;k++){
 	for(q=1;q<=num;q++){
-		if((k==(num-1)) || (k==(num+2))){
-			if(q<=(num-k)){
-				result += ' '
-			}
-			else{
-				result += '* '
-			}
+		if(q<=k-1){
+			result += '  '
+		}
+		else{
+			result += '* '
+		}
+	}
+	for(p=1;p<=num;p++){
+		if(p<=num-k){
+			result += '* '
+		}
+		else{
+			result += ' '
 		}
 	}
 	result += '\n'
-}*/
+}
 console.log(result)
 
 
