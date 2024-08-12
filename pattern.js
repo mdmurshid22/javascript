@@ -421,7 +421,7 @@ console.log(result)*/
 
 //17)Heart star pattern program in Javascript.
 
-num = 15
+/*num = 15
 result = ''
 for(i=num-2;i<=num-1;i++){
 	for(j=1;j<=num;j++){
@@ -465,7 +465,8 @@ for(k=1;k<=num;k++){
 	}
 	result += '\n'
 }
-console.log(result)
+console.log(result)*/
+//--------------------------------------------------------------------------------------------
 
 
 
