@@ -1,6 +1,7 @@
-function Name(First_Name, Second_Name){
-	console.log(First_Name+' '+Second_Name)
+const obj = {name:'idiot',age:21,address:'pavai'}
+
+function details(obj){
+	console.log(obj)
 }
-Name('Hujjathul','Murshid')
-Name('Baliga','Murshid')
-Name('Kuttyma','Murshid')
+details(obj.age)
+details(obj.name)
